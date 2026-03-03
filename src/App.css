@@ -1,0 +1,19 @@
+/* App-level layout (section spacing handled in index.css / sections) */
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main > section {
+  padding: var(--section-padding-y) var(--section-padding-x);
+  max-width: 100%;
+}
+
+main > section:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+main > section:nth-child(odd) {
+  background-color: var(--color-support);
+}

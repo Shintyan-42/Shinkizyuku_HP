@@ -1,0 +1,74 @@
+/* 信稀塾 HP - デザインガイドライン */
+/* ベース: 青（ネイビー）/ サポート: 白 / アクセント: 黄・LINE緑 */
+
+:root {
+  --color-base: #1e3a5f;
+  --color-base-light: #2d5a8a;
+  --color-base-dark: #152a45;
+  --color-navy: #0f172a;
+  --color-navy-mid: #1e293b;
+  --color-support: #ffffff;
+  --color-accent: #0d0d0d;
+  --color-yellow: #facc15;
+  --color-gold: #eab308;
+  --color-line: #06c755;
+  --color-line-hover: #05b34b;
+  --color-text: #1a1a1a;
+  --color-text-muted: #4a5568;
+  --font-sans: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+  --font-display: 'Noto Sans JP', sans-serif;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 12px rgba(30, 58, 95, 0.12);
+  --shadow-lg: 0 12px 32px rgba(30, 58, 95, 0.16);
+  --radius: 12px;
+  --radius-lg: 20px;
+  --section-padding-y: 4rem;
+  --section-padding-x: 1.5rem;
+  --container-max: 960px;
+  --container-wide: 1100px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background-color: var(--color-support);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* レスポンシブ: タブレット以上 */
+@media (min-width: 768px) {
+  :root {
+    --section-padding-y: 5rem;
+    --section-padding-x: 2rem;
+  }
+}
+
+/* レスポンシブ: PC */
+@media (min-width: 1024px) {
+  :root {
+    --section-padding-y: 6rem;
+    --section-padding-x: 2.5rem;
+  }
+}

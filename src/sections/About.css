@@ -1,0 +1,55 @@
+.about {
+  padding: var(--section-padding-y) var(--section-padding-x);
+}
+
+.about__container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.about__heading {
+  font-size: clamp(1.5rem, 3vw, 1.875rem);
+  font-weight: 700;
+  color: var(--color-base);
+  margin: 0 0 1.5rem;
+  text-align: center;
+}
+
+.about__concept {
+  font-size: 1rem;
+  color: var(--color-text);
+  margin: 0 0 1.5rem;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.about__concept strong {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+.about__points {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.about__points li {
+  padding: 0.5rem 1rem;
+  background: var(--color-support);
+  border: 2px solid var(--color-base);
+  border-radius: var(--radius);
+  color: var(--color-base);
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+@media (min-width: 768px) {
+  .about__points {
+    gap: 1rem;
+  }
+}
