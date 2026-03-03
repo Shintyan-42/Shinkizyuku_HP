@@ -1,0 +1,27 @@
+.footer {
+  padding: 1.5rem var(--section-padding-x);
+  background: #f1f5f9;
+  border-top: 1px solid #e2e8f0;
+}
+
+.footer__container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer__note {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.footer__ref {
+  font-weight: 700;
+  color: var(--color-base);
+}
+
+.footer__note mark {
+  font-weight: 600;
+}

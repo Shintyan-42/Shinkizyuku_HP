@@ -30,7 +30,7 @@ export default function Pricing() {
       <div className="pricing__container">
         <h2 id="pricing-heading" className="pricing__heading">コース・料金</h2>
         <p className="pricing__note">
-          すべてのプランに<strong>入塾金10,000円</strong>（ロードマップ作成費）が別途必要です。
+          <a href="#footer-note" className="pricing__ref">※1</a>
         </p>
         <div className="pricing__grid">
           {plans.map((plan, i) => (

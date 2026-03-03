@@ -57,6 +57,15 @@ img {
   height: auto;
 }
 
+/* 重要そうなテキストの黄色マーカー */
+mark,
+.highlight {
+  background-color: var(--color-yellow);
+  padding: 0 0.2em;
+  border-radius: 2px;
+  font-weight: inherit;
+}
+
 /* レスポンシブ: タブレット以上 */
 @media (min-width: 768px) {
   :root {

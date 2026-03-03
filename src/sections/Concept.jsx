@@ -9,7 +9,7 @@ export default function Concept() {
           <div className="concept__text">
             <p>
               塾に行って頑張っている子にありがちなことが、「家での学習習慣が無い」「塾から帰ると勉強できない」。
-              自習時間がとても重要な大学受験、「家での学習習慣の定着」と「対面による強制力」を両立させ、難関大学を目指そう！
+              自習時間がとても重要な大学受験、<mark>「家での学習習慣の定着」</mark>と<mark>「対面による強制力」</mark>を両立させ、難関大学を目指そう！
             </p>
           </div>
           <div className="concept__visual">

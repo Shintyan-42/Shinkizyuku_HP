@@ -13,7 +13,7 @@ export default function Hero() {
             <span className="hero__name-sub">～オンライン×対面式学習塾～</span>
           </h1>
           <p className="hero__main">
-            大阪公立大・熊本大生 直伝。「管理」で伸ばす塾。
+            大阪公立大・熊本大生 直伝。<mark>「管理」で伸ばす塾。</mark>
           </p>
           <p className="hero__sub">毎週のオンライン授業 × 月1回の対面指導</p>
           <a
@@ -24,14 +24,6 @@ export default function Hero() {
           >
             まずは無料相談へ（LINE）
           </a>
-        </div>
-        <div className="hero__visual">
-          <img
-            src="https://placehold.co/500x360/1e293b/94a3b8?text=講師：丸田・北川"
-            alt="講師 丸田・北川"
-            width={500}
-            height={360}
-          />
         </div>
       </div>
     </header>

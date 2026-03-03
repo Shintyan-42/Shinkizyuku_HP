@@ -26,6 +26,17 @@
   color: var(--color-base);
 }
 
+.pricing__ref {
+  color: var(--color-base);
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 0.2em;
+}
+
+.pricing__ref:hover {
+  text-decoration: underline;
+}
+
 .pricing__grid {
   display: grid;
   gap: 1.25rem;

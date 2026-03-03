@@ -6,11 +6,11 @@ export default function CtaLine() {
     <section className="cta-line" id="cta-line" aria-labelledby="cta-line-heading">
       <div className="cta-line__container">
         <h2 id="cta-line-heading" className="cta-line__heading">
-          \ 今だけ！LINE登録特典 /
+          \ <mark>今だけ！LINE登録特典</mark> /
         </h2>
         <ul className="cta-line__offers">
-          <li>① 理系大学生の秘密の公式シート</li>
-          <li>② 1週間 無料体験（アプリ・指導込）</li>
+          <li><mark>① 理系大学生の秘密の公式シート</mark></li>
+          <li><mark>② 1週間 無料体験（アプリ・指導込）</mark></li>
         </ul>
         <div className="cta-line__actions">
           <div className="cta-line__qr-wrap">

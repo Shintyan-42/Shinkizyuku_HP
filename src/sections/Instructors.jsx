@@ -4,7 +4,7 @@ const instructors = [
   {
     name: '北川',
     photo: 'https://placehold.co/280x320/1e3a5f/e2e8f0?text=北川',
-    achievements: ['推薦でGLC合格', '英数偏差値70超', '合格率100%'],
+    achievements: ['高校時代 総合型推薦で合格', '英数偏差値70超', '合格率100%'],
     story: '受験を戦い抜いた経験を、次世代に伝えます。',
     history: '沿革があればここに記載します。',
   },

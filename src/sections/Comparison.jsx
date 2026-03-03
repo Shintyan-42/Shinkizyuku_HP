@@ -1,10 +1,10 @@
 import './Comparison.css'
 
 const comparisonRows = [
-  { item: '管理力', shinki: '◎', other: '△' },
-  { item: '対面での熱量', shinki: '◎', other: '×' },
-  { item: '家での学習習慣づくり', shinki: '◎', other: '△' },
-  { item: '進捗の可視化', shinki: '◎', other: '△' },
+  { item: '管理力', shinki: '◎', video: '△', group: '×', individual: '△' },
+  { item: '対面での熱量', shinki: '◎', video: '×', group: '△', individual: '◎' },
+  { item: '家での学習習慣づくり', shinki: '◎', video: '△', group: '△', individual: '△' },
+  { item: '進捗の可視化', shinki: '◎', video: '△', group: '×', individual: '△' },
 ]
 
 export default function Comparison() {
@@ -20,6 +20,8 @@ export default function Comparison() {
                   <th scope="col">項目</th>
                   <th scope="col">信稀塾</th>
                   <th scope="col">映像授業</th>
+                  <th scope="col">集団授業</th>
+                  <th scope="col">ほかの個別指導</th>
                 </tr>
               </thead>
               <tbody>
@@ -27,7 +29,9 @@ export default function Comparison() {
                   <tr key={i}>
                     <td>{row.item}</td>
                     <td className="comparison__good">{row.shinki}</td>
-                    <td>{row.other}</td>
+                    <td>{row.video}</td>
+                    <td>{row.group}</td>
+                    <td>{row.individual}</td>
                   </tr>
                 ))}
               </tbody>

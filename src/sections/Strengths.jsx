@@ -23,7 +23,7 @@ export default function Strengths() {
     <section className="strengths" id="strengths" aria-labelledby="strengths-heading">
       <div className="strengths__container">
         <h2 id="strengths-heading" className="strengths__heading">
-          信稀塾なら、サボれない。だから伸びる。
+          <mark>信稀塾なら、サボれない。だから伸びる。</mark>
         </h2>
         <p className="strengths__lead">信稀塾のいいところ</p>
         <ul className="strengths__list">

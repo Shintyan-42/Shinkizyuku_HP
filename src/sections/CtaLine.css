@@ -17,6 +17,12 @@
   letter-spacing: 0.02em;
 }
 
+.cta-line mark {
+  background-color: #fde047;
+  padding: 0 0.2em;
+  border-radius: 2px;
+}
+
 .cta-line__offers {
   list-style: none;
   padding: 0;

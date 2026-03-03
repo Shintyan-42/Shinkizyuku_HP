@@ -5,6 +5,7 @@ import Comparison from '../sections/Comparison'
 import Instructors from '../sections/Instructors'
 import Pricing from '../sections/Pricing'
 import CtaLine from '../sections/CtaLine'
+import Footer from '../sections/Footer'
 
 export default function LandingPage() {
   return (
@@ -18,6 +19,7 @@ export default function LandingPage() {
         <Pricing />
         <CtaLine />
       </main>
+      <Footer />
     </>
   )
 }

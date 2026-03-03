@@ -11,8 +11,10 @@ export default function Layout() {
             <span className="layout-header__logo-sub">～オンライン×対面式～</span>
           </Link>
           <nav className="layout-header__nav">
-            <Link to="/" className="layout-header__link">LP</Link>
-            <Link to="/dashboard" className="layout-header__link">Dashboard</Link>
+            <Link to="/" className="layout-header__link">トップ</Link>
+            <a href="/#strengths" className="layout-header__link">特徴</a>
+            <a href="/#instructors" className="layout-header__link">講師紹介</a>
+            <a href="/#pricing" className="layout-header__link">コース・料金</a>
           </nav>
         </div>
       </header>
